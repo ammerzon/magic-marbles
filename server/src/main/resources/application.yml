@@ -1,3 +1,18 @@
 micronaut:
   application:
     name: magicMarbles
+  server:
+    cors:
+      enabled: true
+  router:
+    static-resources:
+      client:
+        enabled: true
+        paths: "classpath:public"
+        mapping: "/**"
+      swagger:
+        paths: classpath:META-INF/swagger
+        mapping: /swagger/**
+      swagger-ui:
+        paths: classpath:META-INF/swagger/views/swagger-ui
+        mapping: /swagger-ui/**
