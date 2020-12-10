@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+.gameArea__field {
+    -fx-alignment: center;
+    -fx-background-color: linear-gradient(from 25% 25% to 100% 100%, #6f6f6f, #9e9e9e);
+    -fx-background-radius: 10;
+}
+
+.gameArea__container {
+    -fx-alignment: top_center;
+    -fx-hgap: 30;
+    -fx-vgap: 100;
+}

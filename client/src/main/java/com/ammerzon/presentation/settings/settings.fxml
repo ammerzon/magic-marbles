@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.*?>
+<VBox xmlns:fx="http://javafx.com/fxml/1" spacing="10.0"
+      xmlns="http://javafx.com/javafx/8.0.172-ea"
+      fx:controller="com.ammerzon.presentation.settings.SettingsPresenter">
+    <Label styleClass="settings__title" text="New game">
+        <VBox.margin>
+            <Insets left="20.0" top="20.0"/>
+        </VBox.margin>
+    </Label>
+    <JFXTextField fx:id="widthTextField" promptText="Width" styleClass="settings_textfield">
+        <VBox.margin>
+            <Insets left="20.0" right="20.0"/>
+        </VBox.margin>
+    </JFXTextField>
+    <JFXTextField fx:id="heightTextField" promptText="Height" styleClass="settings_textfield">
+        <VBox.margin>
+            <Insets left="20.0" right="20.0"/>
+        </VBox.margin>
+    </JFXTextField>
+    <HBox alignment="CENTER_RIGHT">
+        <JFXButton fx:id="startButton" onMouseClicked="#start" styleClass="settings_button" text="Start">
+            <HBox.margin>
+                <Insets bottom="10.0" right="20.0"/>
+            </HBox.margin>
+        </JFXButton>
+    </HBox>
+</VBox>

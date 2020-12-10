@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+.settings__title {
+    -fx-font-size: 40;
+    -fx-fill: #ffffff;
+    -fx-font-family: "Roboto Bold";
+}
+
+.settings_button {
+    -jfx-button-type: RAISED;
+    -fx-background-color: #009988;
+    -fx-text-fill: white;
+    -fx-alignment: CENTER;
+}
